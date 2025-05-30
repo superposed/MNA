@@ -1,11 +1,13 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {},
-    "MyTask4": {
-        "recognition": "Custom",
-        "custom_recognition": "my_reco_222",
-        "action": "Custom",
-        "custom_action": "my_action_111"
+    "点击系统": {
+        "recognition": "OCR",
+        "expected": "系统",
+        "action": "Click",
+        "next": ["点击备份"]
+    },
+    "点击备份": {
+        "recognition": "OCR",
+        "expected": "备份",
+        "action": "Click"
     }
 }
